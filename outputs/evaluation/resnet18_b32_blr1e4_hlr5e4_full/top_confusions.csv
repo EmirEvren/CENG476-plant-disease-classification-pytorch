@@ -1,0 +1,23 @@
+true_index,true_class,predicted_index,predicted_class,count,true_class_error_rate
+9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,12,0.12244897959183673
+33,Tomato___Spider_mites Two-spotted_spider_mite,34,Tomato___Target_Spot,5,0.02976190476190476
+22,Potato___healthy,24,Soybean___healthy,2,0.13333333333333333
+21,Potato___Late_blight,30,Tomato___Late_blight,2,0.02
+33,Tomato___Spider_mites Two-spotted_spider_mite,37,Tomato___healthy,2,0.011904761904761904
+22,Potato___healthy,19,"Pepper,_bell___healthy",1,0.06666666666666667
+36,Tomato___Tomato_mosaic_virus,32,Tomato___Septoria_leaf_spot,1,0.02702702702702703
+36,Tomato___Tomato_mosaic_virus,34,Tomato___Target_Spot,1,0.02702702702702703
+0,Apple___Apple_scab,3,Apple___healthy,1,0.015873015873015872
+6,Cherry_(including_sour)___healthy,24,Soybean___healthy,1,0.011764705882352941
+31,Tomato___Leaf_Mold,30,Tomato___Late_blight,1,0.010526315789473684
+31,Tomato___Leaf_Mold,32,Tomato___Septoria_leaf_spot,1,0.010526315789473684
+21,Potato___Late_blight,19,"Pepper,_bell___healthy",1,0.01
+29,Tomato___Early_blight,30,Tomato___Late_blight,1,0.01
+29,Tomato___Early_blight,34,Tomato___Target_Spot,1,0.01
+5,Cherry_(including_sour)___Powdery_mildew,3,Apple___healthy,1,0.009523809523809525
+8,Corn_(maize)___Common_rust_,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,1,0.008333333333333333
+34,Tomato___Target_Spot,37,Tomato___healthy,1,0.0070921985815602835
+30,Tomato___Late_blight,29,Tomato___Early_blight,1,0.005235602094240838
+24,Soybean___healthy,17,Peach___healthy,1,0.0019646365422396855
+24,Soybean___healthy,37,Tomato___healthy,1,0.0019646365422396855
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,19,"Pepper,_bell___healthy",1,0.0018656716417910447

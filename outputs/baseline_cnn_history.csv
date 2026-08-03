@@ -1,0 +1,2 @@
+epoch,learning_rate,train_loss,train_accuracy,train_macro_f1,validation_loss,validation_accuracy,validation_macro_f1,elapsed_seconds,peak_gpu_memory_mb
+1,0.001,1.3874525272125104,0.612650768805819,0.4852592763428216,2.6668706955391617,0.45469613259668507,0.3524638963977378,284.9149156000003,1301.12255859375

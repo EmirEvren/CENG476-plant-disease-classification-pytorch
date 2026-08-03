@@ -1,0 +1,17 @@
+true_index,true_class,predicted_index,predicted_class,count,true_class_error_rate
+9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,5,0.05102040816326531
+33,Tomato___Spider_mites Two-spotted_spider_mite,34,Tomato___Target_Spot,5,0.02976190476190476
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,2,0.0392156862745098
+33,Tomato___Spider_mites Two-spotted_spider_mite,31,Tomato___Leaf_Mold,2,0.011904761904761904
+22,Potato___healthy,19,"Pepper,_bell___healthy",1,0.06666666666666667
+36,Tomato___Tomato_mosaic_virus,29,Tomato___Early_blight,1,0.02702702702702703
+36,Tomato___Tomato_mosaic_virus,33,Tomato___Spider_mites Two-spotted_spider_mite,1,0.02702702702702703
+6,Cherry_(including_sour)___healthy,24,Soybean___healthy,1,0.011764705882352941
+21,Potato___Late_blight,30,Tomato___Late_blight,1,0.01
+29,Tomato___Early_blight,30,Tomato___Late_blight,1,0.01
+29,Tomato___Early_blight,32,Tomato___Septoria_leaf_spot,1,0.01
+25,Squash___Powdery_mildew,32,Tomato___Septoria_leaf_spot,1,0.005434782608695652
+30,Tomato___Late_blight,14,Grape___healthy,1,0.005235602094240838
+30,Tomato___Late_blight,32,Tomato___Septoria_leaf_spot,1,0.005235602094240838
+28,Tomato___Bacterial_spot,32,Tomato___Septoria_leaf_spot,1,0.004694835680751174
+24,Soybean___healthy,10,Corn_(maize)___healthy,1,0.0019646365422396855

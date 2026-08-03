@@ -1,0 +1,39 @@
+class_index,class_name,display_name,precision,recall,f1_score,support,roc_auc_ovr
+0,Apple___Apple_scab,Apple - Apple scab,1.0,1.0,1.0,63,1.0
+1,Apple___Black_rot,Apple - Black rot,1.0,1.0,1.0,62,1.0
+2,Apple___Cedar_apple_rust,Apple - Cedar apple rust,1.0,1.0,1.0,27,1.0
+3,Apple___healthy,Apple - healthy,1.0,1.0,1.0,165,1.0
+4,Blueberry___healthy,Blueberry - healthy,1.0,1.0,1.0,150,1.0
+5,Cherry_(including_sour)___Powdery_mildew,Cherry (including sour) - Powdery mildew,1.0,1.0,1.0,105,1.0
+6,Cherry_(including_sour)___healthy,Cherry (including sour) - healthy,1.0,0.9882352941176471,0.9940828402366864,85,0.9999977993442046
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,Corn (maize) - Cercospora leaf spot Gray leaf spot,0.9074074074074074,0.9607843137254902,0.9333333333333333,51,0.9997776805889642
+8,Corn_(maize)___Common_rust_,Corn (maize) - Common rust ,1.0,1.0,1.0,120,1.0
+9,Corn_(maize)___Northern_Leaf_Blight,Corn (maize) - Northern Leaf Blight,0.9789473684210527,0.9489795918367347,0.9637305699481865,98,0.9996536773344252
+10,Corn_(maize)___healthy,Corn (maize) - healthy,0.9914529914529915,1.0,0.9957081545064378,116,1.0
+11,Grape___Black_rot,Grape - Black rot,1.0,1.0,1.0,118,1.0
+12,Grape___Esca_(Black_Measles),Grape - Esca (Black Measles),1.0,1.0,1.0,138,1.0
+13,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),Grape - Leaf blight (Isariopsis Leaf Spot),1.0,1.0,1.0,107,1.0
+14,Grape___healthy,Grape - healthy,0.9767441860465116,1.0,0.9882352941176471,42,1.0
+15,Orange___Haunglongbing_(Citrus_greening),Orange - Haunglongbing (Citrus greening),1.0,1.0,1.0,551,1.0
+16,Peach___Bacterial_spot,Peach - Bacterial spot,1.0,1.0,1.0,230,1.0
+17,Peach___healthy,Peach - healthy,1.0,1.0,1.0,36,1.0
+18,"Pepper,_bell___Bacterial_spot","Pepper, bell - Bacterial spot",1.0,1.0,1.0,100,1.0
+19,"Pepper,_bell___healthy","Pepper, bell - healthy",0.9932885906040269,1.0,0.9966329966329966,148,0.9999910472653233
+20,Potato___Early_blight,Potato - Early blight,1.0,1.0,1.0,100,1.0
+21,Potato___Late_blight,Potato - Late blight,1.0,0.99,0.9949748743718593,100,1.0
+22,Potato___healthy,Potato - healthy,1.0,0.9333333333333333,0.9655172413793104,15,0.9998769079271295
+23,Raspberry___healthy,Raspberry - healthy,1.0,1.0,1.0,37,1.0
+24,Soybean___healthy,Soybean - healthy,0.9980353634577603,0.9980353634577603,0.9980353634577603,509,0.999992815225973
+25,Squash___Powdery_mildew,Squash - Powdery mildew,1.0,0.9945652173913043,0.997275204359673,184,1.0
+26,Strawberry___Leaf_scorch,Strawberry - Leaf scorch,1.0,1.0,1.0,111,1.0
+27,Strawberry___healthy,Strawberry - healthy,1.0,1.0,1.0,46,1.0
+28,Tomato___Bacterial_spot,Tomato - Bacterial spot,1.0,0.9953051643192489,0.9976470588235294,213,0.9999991002614641
+29,Tomato___Early_blight,Tomato - Early blight,0.98989898989899,0.98,0.9849246231155779,100,0.9999943725379854
+30,Tomato___Late_blight,Tomato - Late blight,0.9895287958115183,0.9895287958115183,0.9895287958115183,191,0.9999840134287199
+31,Tomato___Leaf_Mold,Tomato - Leaf Mold,0.979381443298969,1.0,0.9895833333333334,95,1.0
+32,Tomato___Septoria_leaf_spot,Tomato - Septoria leaf spot,0.9779005524861878,1.0,0.9888268156424581,177,0.9999989246826201
+33,Tomato___Spider_mites Two-spotted_spider_mite,Tomato - Spider mites Two-spotted spider mite,0.9938271604938271,0.9583333333333334,0.9757575757575757,168,0.9999819042190313
+34,Tomato___Target_Spot,Tomato - Target Spot,0.9657534246575342,1.0,0.9825783972125436,141,0.9999865931973884
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato - Tomato Yellow Leaf Curl Virus,1.0,1.0,1.0,536,1.0
+36,Tomato___Tomato_mosaic_virus,Tomato - Tomato mosaic virus,1.0,0.9459459459459459,0.9722222222222222,37,1.0
+37,Tomato___healthy,Tomato - healthy,1.0,1.0,1.0,159,1.0
