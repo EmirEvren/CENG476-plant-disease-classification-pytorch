@@ -249,7 +249,7 @@ a qualitative interpretation tool, not as proof of causal reasoning.
 
 | Correct prediction example | Error-analysis example |
 |---|---|
-| ![Correct Grad-CAM](outputs/figures/gradcam_correct_representative.png) | ![Grad-CAM error](outputs/figures/gradcam_error_representative.png) |
+| ![Correct Grad-CAM](outputs/figures/efficientnet_b0_gradcam_correct_examples.png) | ![Grad-CAM error](outputs/figures/efficientnet_b0_gradcam_error_examples.png) |
 
 ## Main Findings
 
