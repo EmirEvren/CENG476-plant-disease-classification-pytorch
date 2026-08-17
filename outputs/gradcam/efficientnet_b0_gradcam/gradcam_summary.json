@@ -1,7 +1,7 @@
 {
   "run_name": "efficientnet_b0_gradcam",
   "model_name": "efficientnet_b0_transfer",
-  "checkpoint": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\checkpoints\\efficientnet_b0_b32_blr1e4_hlr5e4_full_best.pt",
+  "checkpoint": "outputs/checkpoints/efficientnet_b0_b32_blr1e4_hlr5e4_full_best.pt",
   "checkpoint_epoch": 10,
   "gradcam_target_layer": "model.features[-1]",
   "correct_examples": 6,
@@ -9,8 +9,8 @@
   "test_used_for_training": false,
   "device": "cuda",
   "output_files": {
-    "correct_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\efficientnet_b0_gradcam_correct_examples.png",
-    "error_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\efficientnet_b0_gradcam_error_examples.png",
-    "sample_metadata": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\gradcam\\efficientnet_b0_gradcam\\gradcam_samples.csv"
+    "correct_figure": "outputs/figures/efficientnet_b0_gradcam_correct_examples.png",
+    "error_figure": "outputs/figures/efficientnet_b0_gradcam_error_examples.png",
+    "sample_metadata": "outputs/gradcam/efficientnet_b0_gradcam/gradcam_samples.csv"
   }
 }

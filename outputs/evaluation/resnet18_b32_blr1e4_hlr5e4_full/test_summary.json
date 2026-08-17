@@ -1,7 +1,7 @@
 {
   "run_name": "resnet18_b32_blr1e4_hlr5e4_full",
   "model_name": "resnet18_transfer",
-  "checkpoint_path": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\checkpoints\\resnet18_b32_blr1e4_hlr5e4_full_best.pt",
+  "checkpoint_path": "outputs/checkpoints/resnet18_b32_blr1e4_hlr5e4_full_best.pt",
   "checkpoint_epoch": 12,
   "selection_metric": "validation_macro_f1",
   "checkpoint_validation_loss": 0.02591512907943028,
@@ -66,12 +66,12 @@
     "Tomato___healthy"
   ],
   "output_files": {
-    "classification_report": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\resnet18_b32_blr1e4_hlr5e4_full\\classification_report.csv",
-    "confusion_matrix_counts": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\resnet18_b32_blr1e4_hlr5e4_full\\confusion_matrix_counts.csv",
-    "confusion_matrix_normalized": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\resnet18_b32_blr1e4_hlr5e4_full\\confusion_matrix_normalized.csv",
-    "predictions": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\resnet18_b32_blr1e4_hlr5e4_full\\predictions.csv",
-    "top_confusions": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\resnet18_b32_blr1e4_hlr5e4_full\\top_confusions.csv",
-    "confusion_matrix_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\resnet18_b32_blr1e4_hlr5e4_full_test_confusion_matrix.png",
-    "per_class_f1_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\resnet18_b32_blr1e4_hlr5e4_full_test_per_class_f1.png"
+    "classification_report": "outputs/evaluation/resnet18_b32_blr1e4_hlr5e4_full/classification_report.csv",
+    "confusion_matrix_counts": "outputs/evaluation/resnet18_b32_blr1e4_hlr5e4_full/confusion_matrix_counts.csv",
+    "confusion_matrix_normalized": "outputs/evaluation/resnet18_b32_blr1e4_hlr5e4_full/confusion_matrix_normalized.csv",
+    "predictions": "outputs/evaluation/resnet18_b32_blr1e4_hlr5e4_full/predictions.csv",
+    "top_confusions": "outputs/evaluation/resnet18_b32_blr1e4_hlr5e4_full/top_confusions.csv",
+    "confusion_matrix_figure": "outputs/figures/resnet18_b32_blr1e4_hlr5e4_full_test_confusion_matrix.png",
+    "per_class_f1_figure": "outputs/figures/resnet18_b32_blr1e4_hlr5e4_full_test_per_class_f1.png"
   }
 }

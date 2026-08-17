@@ -1,7 +1,7 @@
 {
   "run_name": "baseline_b64_lr5e4_full",
   "model_name": "baseline_cnn",
-  "checkpoint_path": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\checkpoints\\baseline_b64_lr5e4_full_best.pt",
+  "checkpoint_path": "outputs/checkpoints/baseline_b64_lr5e4_full_best.pt",
   "checkpoint_epoch": 15,
   "selection_metric": "validation_macro_f1",
   "checkpoint_validation_loss": 0.4574504006523673,
@@ -66,12 +66,12 @@
     "Tomato___healthy"
   ],
   "output_files": {
-    "classification_report": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\baseline_b64_lr5e4_full\\classification_report.csv",
-    "confusion_matrix_counts": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\baseline_b64_lr5e4_full\\confusion_matrix_counts.csv",
-    "confusion_matrix_normalized": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\baseline_b64_lr5e4_full\\confusion_matrix_normalized.csv",
-    "predictions": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\baseline_b64_lr5e4_full\\predictions.csv",
-    "top_confusions": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\evaluation\\baseline_b64_lr5e4_full\\top_confusions.csv",
-    "confusion_matrix_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\baseline_b64_lr5e4_full_test_confusion_matrix.png",
-    "per_class_f1_figure": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\figures\\baseline_b64_lr5e4_full_test_per_class_f1.png"
+    "classification_report": "outputs/evaluation/baseline_b64_lr5e4_full/classification_report.csv",
+    "confusion_matrix_counts": "outputs/evaluation/baseline_b64_lr5e4_full/confusion_matrix_counts.csv",
+    "confusion_matrix_normalized": "outputs/evaluation/baseline_b64_lr5e4_full/confusion_matrix_normalized.csv",
+    "predictions": "outputs/evaluation/baseline_b64_lr5e4_full/predictions.csv",
+    "top_confusions": "outputs/evaluation/baseline_b64_lr5e4_full/top_confusions.csv",
+    "confusion_matrix_figure": "outputs/figures/baseline_b64_lr5e4_full_test_confusion_matrix.png",
+    "per_class_f1_figure": "outputs/figures/baseline_b64_lr5e4_full_test_per_class_f1.png"
   }
 }
