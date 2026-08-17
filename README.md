@@ -170,6 +170,7 @@ python -m venv .venv
 | `outputs/evaluation/` | Locked-test metrics and predictions |
 | `outputs/comparison/` | Model and ablation comparison tables |
 | `outputs/figures/` | Training, ROC, confusion, architecture, ablation and Grad-CAM figures |
+| `report/` | Final project report in PDF and DOCX formats |
 | `requirements.txt` | Python dependencies excluding PyTorch wheels |
 
 ## Limitations
