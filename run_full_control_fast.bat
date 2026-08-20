@@ -9,26 +9,30 @@ if not exist "%PYTHON%" (
 )
 
 echo ============================================================
-echo FULL CONTROL - CORE / ROBUSTNESS / OOD / SANITY
+echo FULL CONTROL - CORE / GAPS / ROBUSTNESS / OOD / SANITY
 echo ============================================================
 
-echo [1/5] Calibration, bootstrap CI, per-class and error audit
+echo [1/6] Calibration, bootstrap CI, per-class and error audit
 "%PYTHON%" src\full_control_core.py --batch-size 32 --bootstrap-samples 1000
 if errorlevel 1 exit /b 1
 
-echo [2/5] Corruption robustness and shortcut occlusion stress
+echo [2/6] Best-checkpoint train-validation-test gap analysis
+"%PYTHON%" src\analyze_generalization_gap.py
+if errorlevel 1 exit /b 1
+
+echo [3/6] Corruption robustness and shortcut occlusion stress
 "%PYTHON%" src\robustness_ultrastrict.py --batch-size 32
 if errorlevel 1 exit /b 1
 
-echo [3/5] Random-label pipeline sanity control
+echo [4/6] Random-label pipeline sanity control
 "%PYTHON%" src\random_label_sanity_ultrastrict.py --epochs 5 --batch-size 64
 if errorlevel 1 exit /b 1
 
-echo [4/5] EfficientNet Grad-CAM visual audit
+echo [5/6] EfficientNet Grad-CAM visual audit
 "%PYTHON%" src\gradcam_ultrastrict.py --images-per-sheet 12
 if errorlevel 1 exit /b 1
 
-echo [5/5] External PlantDoc out-of-domain evaluation
+echo [6/6] External PlantDoc out-of-domain evaluation
 if not exist "data\external\PlantDoc-Dataset\test" (
   if not exist "data\external" mkdir "data\external"
   echo Cloning official Cropped-PlantDoc dataset...
