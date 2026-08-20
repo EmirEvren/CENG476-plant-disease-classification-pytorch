@@ -14,6 +14,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_TARGET = PROJECT_ROOT / "data" / "external" / "PlantDoc-Windows" / "test"
 COMPLETION_FILE = ".download_complete.json"
 API_ROOT = "https://api.github.com/repos/pratikkayal/PlantDoc-Dataset/contents/test"
+RAW_ROOT = "https://raw.githubusercontent.com/pratikkayal/PlantDoc-Dataset/master"
 USER_AGENT = "CENG476-plant-disease-full-control/1.0"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
@@ -86,6 +87,21 @@ def safe_filename(name: str, source_path: str) -> str:
     return f"{stem}__{token}{suffix}"
 
 
+def raw_url_from_repo_path(repo_path: str) -> str:
+    """Build a raw GitHub URL from the literal repository path.
+
+    PlantDoc contains filenames whose literal names include percent sequences
+    such as ``%20`` and characters such as ``?``. GitHub's ``download_url``
+    field can be ambiguous for those names because a literal ``%20`` may be
+    interpreted as a space and a literal ``?`` as a query delimiter. Quoting
+    the repository path ourselves fixes this: percent signs become ``%25``,
+    spaces become ``%20``, question marks become ``%3F``, while path slashes
+    remain separators.
+    """
+    encoded_path = urllib.parse.quote(repo_path, safe="/")
+    return f"{RAW_ROOT}/{encoded_path}"
+
+
 def download_binary(url: str, destination: Path):
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.is_file() and destination.stat().st_size > 0:
@@ -138,8 +154,9 @@ def collect_files(items):
         suffix = Path(urllib.parse.unquote(original_path)).suffix.lower()
         if suffix not in IMAGE_EXTENSIONS:
             continue
-        download_url = item.get("download_url")
-        if download_url:
+        # Keep the repository path and SHA. Do not trust download_url for this
+        # dataset because several literal filenames contain URL metacharacters.
+        if original_path:
             files.append(item)
     return files
 
@@ -188,7 +205,8 @@ def main():
             original_path = str(item["path"])
             original_name = urllib.parse.unquote(original_path.rsplit("/", 1)[-1])
             filename = safe_filename(original_name, original_path)
-            state = download_binary(str(item["download_url"]), folder_target / filename)
+            source_url = raw_url_from_repo_path(original_path)
+            state = download_binary(source_url, folder_target / filename)
             count += 1
             total += 1
             if state == "downloaded":
@@ -204,7 +222,10 @@ def main():
     summary = {
         "source_repository": "pratikkayal/PlantDoc-Dataset",
         "source_split": "test",
-        "download_method": "GitHub Contents API with Windows-safe local filenames",
+        "download_method": (
+            "GitHub Contents API listing + self-encoded raw URLs with "
+            "Windows-safe local filenames"
+        ),
         "mapped_folders": len(PLANTDOC_FOLDERS),
         "downloaded_images": total,
         "new_downloads_this_run": downloaded,
@@ -213,7 +234,9 @@ def main():
         "target": str(target),
         "note": (
             "Local filenames are sanitized only for Windows compatibility. "
-            "Image bytes and source class folders are otherwise unchanged."
+            "Raw URLs are reconstructed from literal Git repository paths so "
+            "filenames containing %, ?, spaces, and similar URL metacharacters "
+            "are fetched without changing image bytes or class folders."
         ),
     }
     marker.parent.mkdir(parents=True, exist_ok=True)
