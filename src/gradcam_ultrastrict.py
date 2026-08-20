@@ -48,8 +48,9 @@ def gradcam(model, tensor, target):
             cam, size=tensor.shape[-2:], mode="bilinear", align_corners=False
         )[0,0]
         cam = cam - cam.min()
-        if float(cam.max()) > 0:
-            cam = cam / cam.max()
+        cam_max = cam.detach().max().item()
+        if cam_max > 0:
+            cam = cam / cam_max
         return cam.detach().cpu().numpy()
     finally:
         handle.remove()
