@@ -18,7 +18,7 @@ from transfer_models import create_resnet18_transfer
 from full_control_core import EFF_CKPT, RES_CKPT, OUT
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PLANTDOC = PROJECT_ROOT / "data" / "external" / "PlantDoc-Dataset" / "test"
+DEFAULT_PLANTDOC = PROJECT_ROOT / "data" / "external" / "PlantDoc-Windows" / "test"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 PLANTDOC_TO_PLANTVILLAGE = {
@@ -159,7 +159,7 @@ def main():
     if not args.plantdoc_test.is_dir():
         raise FileNotFoundError(
             f"PlantDoc test directory not found: {args.plantdoc_test}\n"
-            "Clone the official PlantDoc-Dataset repository first."
+            "Run src/download_plantdoc_windows.py first."
         )
     OUT.mkdir(parents=True, exist_ok=True)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
