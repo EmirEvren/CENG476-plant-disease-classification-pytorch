@@ -4,13 +4,20 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 .idea/
+
+# Datasets are downloaded locally and must not be committed.
 data/raw/*
 !data/raw/README.md
+data/external/
+
+# Model checkpoints are generated locally.
 *.pt
 *.pth
 *.ckpt
 outputs/checkpoints/*
 !outputs/checkpoints/README.md
+
+# Large/generated caches and temporary artifacts.
 .cache/
 *.tmp
 *.zip
