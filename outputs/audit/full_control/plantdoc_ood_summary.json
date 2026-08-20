@@ -1,0 +1,25 @@
+{
+  "dataset": "Cropped-PlantDoc test split",
+  "dataset_path": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\data\\external\\PlantDoc-Windows\\test",
+  "purpose": "External out-of-domain generalization probe; never used for training or tuning.",
+  "mapping_is_manual_cross_dataset_semantic_mapping": true,
+  "mapped_folders_present": 27,
+  "mapped_images": 236,
+  "results": [
+    {
+      "model": "EfficientNet-B0",
+      "images": 236,
+      "accuracy": 0.2330508474576271,
+      "mapped_macro_f1": 0.21829265095537664,
+      "errors": 181
+    },
+    {
+      "model": "50/50 Ensemble",
+      "images": 236,
+      "accuracy": 0.25,
+      "mapped_macro_f1": 0.23492062641558598,
+      "errors": 177
+    }
+  ],
+  "important_limit": "PlantDoc and PlantVillage class definitions and image distributions are not identical. Treat this as an OOD stress test, not a directly comparable replacement benchmark."
+}

@@ -23,3 +23,9 @@ outputs/checkpoints/*
 *.zip
 Thumbs.db
 desktop.ini
+
+# Local generated experiment artifacts
+outputs/evaluation/
+outputs/experiments/
+outputs/histories/
+outputs/audit/cache/

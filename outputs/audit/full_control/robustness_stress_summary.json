@@ -1,0 +1,151 @@
+{
+  "locked_test_images": 10709,
+  "used_for_tuning": false,
+  "interpretation": "These are post-hoc robustness and shortcut stress tests. Center/border occlusion is not a segmentation proof; compare the relative degradation as qualitative shortcut evidence.",
+  "rows": [
+    {
+      "condition": "clean",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9901017835465497,
+      "macro_f1": 0.9873730688086694,
+      "errors": 106,
+      "accuracy_drop_pp": 0.0
+    },
+    {
+      "condition": "clean",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9914090951536091,
+      "macro_f1": 0.989732611691459,
+      "errors": 92,
+      "accuracy_drop_pp": 0.0
+    },
+    {
+      "condition": "brightness_0.60",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9883275749369689,
+      "macro_f1": 0.986492328072555,
+      "errors": 125,
+      "accuracy_drop_pp": 0.1774208609580774
+    },
+    {
+      "condition": "brightness_0.60",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9917826127556261,
+      "macro_f1": 0.9901635931808946,
+      "errors": 88,
+      "accuracy_drop_pp": -0.03735176020169817
+    },
+    {
+      "condition": "brightness_1.40",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9806704640956205,
+      "macro_f1": 0.9740153346885898,
+      "errors": 207,
+      "accuracy_drop_pp": 0.9431319450929121
+    },
+    {
+      "condition": "brightness_1.40",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9873004015314222,
+      "macro_f1": 0.9836532229144845,
+      "errors": 136,
+      "accuracy_drop_pp": 0.41086936221869097
+    },
+    {
+      "condition": "contrast_0.60",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9848725371183117,
+      "macro_f1": 0.980599144885644,
+      "errors": 162,
+      "accuracy_drop_pp": 0.5229246428237966
+    },
+    {
+      "condition": "contrast_0.60",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9878606779344477,
+      "macro_f1": 0.9848073278599895,
+      "errors": 130,
+      "accuracy_drop_pp": 0.3548417219161437
+    },
+    {
+      "condition": "gaussian_blur_radius_2",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.8407881221402559,
+      "macro_f1": 0.8433534280452053,
+      "errors": 1705,
+      "accuracy_drop_pp": 14.931366140629375
+    },
+    {
+      "condition": "gaussian_blur_radius_2",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.8652535250723691,
+      "macro_f1": 0.8669964601347865,
+      "errors": 1443,
+      "accuracy_drop_pp": 12.615557008124
+    },
+    {
+      "condition": "jpeg_quality_30",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9813241198991502,
+      "macro_f1": 0.9736900000486196,
+      "errors": 200,
+      "accuracy_drop_pp": 0.8777663647399403
+    },
+    {
+      "condition": "jpeg_quality_30",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9872070221309179,
+      "macro_f1": 0.9840421924782327,
+      "errors": 137,
+      "accuracy_drop_pp": 0.4202073022691155
+    },
+    {
+      "condition": "rotation_15deg",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9941170977682323,
+      "macro_f1": 0.9927282660712615,
+      "errors": 63,
+      "accuracy_drop_pp": -0.4015314221682664
+    },
+    {
+      "condition": "rotation_15deg",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9950508917732748,
+      "macro_f1": 0.9940077182722803,
+      "errors": 53,
+      "accuracy_drop_pp": -0.36417966196656826
+    },
+    {
+      "condition": "center_occluded_60pct",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.5538332243906994,
+      "macro_f1": 0.50218027409396,
+      "errors": 4778,
+      "accuracy_drop_pp": 43.626855915585026
+    },
+    {
+      "condition": "center_occluded_60pct",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.644504622280325,
+      "macro_f1": 0.594552369108536,
+      "errors": 3807,
+      "accuracy_drop_pp": 34.69044728732841
+    },
+    {
+      "condition": "border_occluded_keep_center_60pct",
+      "model": "EfficientNet-B0",
+      "accuracy": 0.5884769819777756,
+      "macro_f1": 0.5338246820505855,
+      "errors": 4407,
+      "accuracy_drop_pp": 40.1624801568774
+    },
+    {
+      "condition": "border_occluded_keep_center_60pct",
+      "model": "50/50 Ensemble",
+      "accuracy": 0.7793444766084602,
+      "macro_f1": 0.7467029490646366,
+      "errors": 2363,
+      "accuracy_drop_pp": 21.20646185451489
+    }
+  ]
+}

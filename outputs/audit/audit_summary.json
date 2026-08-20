@@ -1,0 +1,19 @@
+{
+  "dataset_root": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\data\\raw\\PlantVillage",
+  "seed": 42,
+  "split_counts": {
+    "train": 43444,
+    "test": 5431,
+    "validation": 5430
+  },
+  "num_classes": 38,
+  "exact_cross_split_hash_groups": 10,
+  "exact_cross_split_pairs": 10,
+  "near_duplicate_threshold": 4,
+  "near_duplicate_cross_split_pairs": 68,
+  "near_duplicate_pairs_saved": 68,
+  "leaf_map_source": "C:\\Users\\emire\\Desktop\\plant-disease-pytorch\\outputs\\audit\\cache\\official_leaf-map.json",
+  "leaf_map_mapped_images": 41111,
+  "leaf_map_coverage": 0.7570389466899917,
+  "same_leaf_cross_split_groups": 4956
+}

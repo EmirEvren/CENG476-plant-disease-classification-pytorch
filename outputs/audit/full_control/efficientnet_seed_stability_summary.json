@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    42,
+    123,
+    777
+  ],
+  "fixed_manifest": true,
+  "same_locked_test": true,
+  "test_examples_each": 10709,
+  "accuracy_mean": 0.9900084041460454,
+  "accuracy_std": 0.002289224142708268,
+  "accuracy_min": 0.9876739191334392,
+  "accuracy_max": 0.9922495097581474,
+  "accuracy_range_percentage_points": 0.4575590624708248,
+  "macro_f1_mean": 0.9870635100415212,
+  "macro_f1_std": 0.0032514057043624913,
+  "macro_f1_min": 0.9836683959404184,
+  "macro_f1_max": 0.990149065375476,
+  "note": "Seed stability is descriptive. No test result was used to choose or discard a seed; all predefined seeds are reported."
+}

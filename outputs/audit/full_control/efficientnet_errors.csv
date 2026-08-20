@@ -1,0 +1,107 @@
+relative_path,true_index,true_class,predicted_index,predicted_class,confidence,true_class_probability,correct
+val\Corn_(maize)___Common_rust_\RS_Rust 1949.JPG,8,Corn_(maize)___Common_rust_,9,Corn_(maize)___Northern_Leaf_Blight,0.9998703,5.265801e-05,False
+train\Tomato___Early_blight\5ac54e63-40a4-4651-a900-fd3ab4d32bae___RS_Erly.B 7727.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.999739,0.0001353715,False
+train\Tomato___Septoria_leaf_spot\8aad671a-ce18-4cdb-9744-63eb859d40b7___Matt.S_CG 7650.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9991561,0.0005145935,False
+val\Potato___Late_blight\93d91b96-e024-477c-9b76-796e3f1614d4___RS_LB 3297.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.99896145,0.00047677328,False
+train\Tomato___Septoria_leaf_spot\b36baca9-7ebc-4abc-b0fd-a05871925c6e___Matt.S_CG 7725.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9983365,0.0015791261,False
+train\Tomato___Early_blight\c5ab9d87-f1bf-4fce-8133-c80ac2d52dd5___RS_Erly.B 7849.JPG,29,Tomato___Early_blight,32,Tomato___Septoria_leaf_spot,0.99737537,0.00083540904,False
+train\Tomato___Septoria_leaf_spot\ba5de483-365d-4a7c-8340-bf3ca0923a5e___Keller.St_CG 1861.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9970697,0.0018492527,False
+train\Potato___Late_blight\93935af4-3aae-4dd6-90d9-fb28e439faf0___RS_LB 3299.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.9964881,0.0003291019,False
+train\Corn_(maize)___Northern_Leaf_Blight\ba2884c9-c118-441a-8095-9a287f8a865d___RS_NLB 3954 copy.jpg,9,Corn_(maize)___Northern_Leaf_Blight,30,Tomato___Late_blight,0.9938181,0.004711431,False
+train\Tomato___Early_blight\b24f8f98-4bfe-4605-85f5-738fc09e58fe___RS_Erly.B 6406.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.99297065,0.0050750375,False
+train\Potato___Late_blight\2565077d-44d3-4213-82c2-bf5ae9a64368___RS_LB 3295.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.99271166,0.007148099,False
+val\Tomato___Target_Spot\9a2e5ed6-a441-4d2b-8d50-fd44c1fde6dc___Com.G_TgS_FL 1110.JPG,34,Tomato___Target_Spot,33,Tomato___Spider_mites Two-spotted_spider_mite,0.9916047,0.008250403,False
+val\Corn_(maize)___Northern_Leaf_Blight\78d28bb5-2b07-42eb-aff8-d205eaf38fc9___RS_NLB 3967.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.9908043,0.0091249915,False
+train\Potato___Late_blight\8b0ef54c-6d28-47bb-a657-287afbb8a620___RS_LB 3298.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.99031174,0.009670824,False
+train\Tomato___Septoria_leaf_spot\a0337427-9957-4062-a0e4-e0a3d21e5574___Matt.S_CG 7478.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9871229,0.012572518,False
+val\Tomato___Septoria_leaf_spot\ebccf4e1-f615-4812-a572-b3d9adddcf91___Matt.S_CG 7467.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.98411083,0.015721353,False
+train\Corn_(maize)___Northern_Leaf_Blight\15803dee-8071-49f1-81b6-fd3dedbc1c58___RS_NLB 4020 copy.jpg,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.97854996,0.02095384,False
+train\Tomato___Septoria_leaf_spot\972264b7-6644-4e88-b1a7-fac8a1d4e139___Matt.S_CG 7649.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.97746104,0.022107037,False
+train\Tomato___Bacterial_spot\7bd0f0c4-082e-4da4-ade1-a1d79637949c___GCREC_Bact.Sp 3664.JPG,28,Tomato___Bacterial_spot,32,Tomato___Septoria_leaf_spot,0.9768151,0.018048933,False
+train\Corn_(maize)___Northern_Leaf_Blight\1bc4fef1-35f3-40da-9675-8b6a986839a1___RS_NLB 3791.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.97450054,0.02507243,False
+val\Potato___healthy\111cd9d8-4d27-4225-be9e-d29b21cf56b9___RS_HL 5419.JPG,22,Potato___healthy,24,Soybean___healthy,0.97367597,0.025445713,False
+train\Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\629273b6-9eaa-4084-b72b-ac856a9ef899___RS_GLSp 4636.JPG,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,0.9729264,0.024837129,False
+train\Corn_(maize)___Northern_Leaf_Blight\c4eb96b2-1345-46d0-a796-161042da21df___RS_NLB 0824 copy.jpg,9,Corn_(maize)___Northern_Leaf_Blight,10,Corn_(maize)___healthy,0.9625344,0.0016270317,False
+val\Soybean___healthy\b32e4516-9cd7-4226-be52-26f413c97834___RS_HL 3512.JPG,24,Soybean___healthy,10,Corn_(maize)___healthy,0.9525182,0.0022884146,False
+val\Tomato___Septoria_leaf_spot\9580a3c7-f614-4f5c-b660-8b9525865917___Keller.St_CG 1858.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9493301,0.021979969,False
+train\Tomato___Septoria_leaf_spot\0c48052c-232b-4ea7-b77d-322f5f642612___Matt.S_CG 7724.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9483932,0.051254347,False
+"train\Pepper,_bell___Bacterial_spot\28462e1b-741c-4949-884f-e5c35375dab4___JR_B.Spot 3111.JPG",18,"Pepper,_bell___Bacterial_spot",15,Orange___Haunglongbing_(Citrus_greening),0.9455802,0.043967,False
+train\Tomato___Early_blight\00c5c908-fc25-4710-a109-db143da23112___RS_Erly.B 7778.JPG,29,Tomato___Early_blight,34,Tomato___Target_Spot,0.94449216,0.027860498,False
+train\Tomato___Septoria_leaf_spot\cd3b1a93-f5b4-406f-aa8a-640280edf543___Keller.St_CG 1860.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9425346,0.004343541,False
+train\Tomato___Septoria_leaf_spot\53d795c2-0784-4d1e-b475-a54dd3e5a6a1___Matt.S_CG 7479.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.93762887,0.062328372,False
+train\Tomato___Early_blight\1bdb9ab4-1a7a-449a-b848-c446d7615d42___RS_Erly.B 8443.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.93003523,0.033612903,False
+val\Tomato___Septoria_leaf_spot\fbbb8eca-408d-476e-b9a0-b0162f66506c___Matt.S_CG 7728.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.92784166,0.058167685,False
+train\Raspberry___healthy\2acf2191-96db-4afa-bcdf-77590e0b7428___Mary_HL 6233.JPG,23,Raspberry___healthy,6,Cherry_(including_sour)___healthy,0.9276033,0.07237225,False
+train\Tomato___Early_blight\89e7a492-7347-4659-ac0b-2df664ed4c80___RS_Erly.B 8438.JPG,29,Tomato___Early_blight,32,Tomato___Septoria_leaf_spot,0.9261808,0.01295573,False
+train\Tomato___Tomato_mosaic_virus\01b32f27-2b9b-4961-805b-8066bf4d90f1___PSU_CG 2417.JPG,36,Tomato___Tomato_mosaic_virus,32,Tomato___Septoria_leaf_spot,0.9197494,0.0010417459,False
+train\Tomato___Tomato_Yellow_Leaf_Curl_Virus\8f673fbe-f75c-44b3-aa36-2bdfe5992350___UF.GRC_YLCV_Lab 08573.JPG,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,28,Tomato___Bacterial_spot,0.91923445,0.075898774,False
+train\Apple___Apple_scab\5e96dd82-f2d2-4a19-a9cd-46165d6623f9___FREC_Scab 3218.JPG,0,Apple___Apple_scab,30,Tomato___Late_blight,0.90884876,0.08928792,False
+train\Tomato___Septoria_leaf_spot\224c7002-2660-42fb-9be0-f55f7fa49e14___Matt.S_CG 7647.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9037808,0.09563062,False
+train\Tomato___Early_blight\29fb6588-a368-4143-9cdd-8a131f0d50f4___RS_Erly.B 7779.JPG,29,Tomato___Early_blight,34,Tomato___Target_Spot,0.8893481,0.008331792,False
+train\Tomato___Septoria_leaf_spot\31aa2d68-efd3-4b8a-a320-1ebb2dc7a4dd___Matt.S_CG 7571.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.88089925,0.11265191,False
+train\Tomato___Septoria_leaf_spot\9bfa2e5e-1457-49c6-96db-cc6b4a5f4d74___Matt.S_CG 7457.JPG,32,Tomato___Septoria_leaf_spot,18,"Pepper,_bell___Bacterial_spot",0.87271345,0.059505004,False
+train\Tomato___Early_blight\5390d8c0-5781-47cf-8d0a-482e000a01f3___RS_Erly.B 7400.JPG,29,Tomato___Early_blight,0,Apple___Apple_scab,0.8689727,0.085037544,False
+val\Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\a401fce7-28ad-4d2f-bf98-3ef87ae65ba5___RS_GLSp 4614.JPG,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,0.85551715,0.14409259,False
+train\Tomato___Target_Spot\90939ea0-9f49-4b33-be99-8a36bd719b94___Com.G_TgS_FL 7918.JPG,34,Tomato___Target_Spot,30,Tomato___Late_blight,0.85400593,0.016617976,False
+train\Tomato___Early_blight\d44e75f7-59ac-4296-ac62-893125ddf04e___RS_Erly.B 7856.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.84972394,0.10168346,False
+train\Tomato___Early_blight\090af0e4-75f2-495a-8bca-a3370c6dd2a6___RS_Erly.B 9562.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.82627094,0.1731958,False
+train\Tomato___Tomato_mosaic_virus\3b0a3f5d-ff2c-4c7b-a8b9-71d8daa6dd4f___PSU_CG 2097.JPG,36,Tomato___Tomato_mosaic_virus,33,Tomato___Spider_mites Two-spotted_spider_mite,0.8246573,0.15254627,False
+train\Tomato___Target_Spot\6fcb11a8-c98b-49c1-9c07-31d15225d1fb___Com.G_TgS_FL 9796.JPG,34,Tomato___Target_Spot,24,Soybean___healthy,0.82350254,0.16152507,False
+train\Potato___Late_blight\bd632f59-ff1c-452f-b504-053fa95ab000___RS_LB 4356.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.8091435,0.1906928,False
+val\Potato___Late_blight\65bab626-51a1-4d16-ab9c-ddd25f4e2e33___RS_LB 4927.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.80913186,0.19069006,False
+train\Peach___Bacterial_spot\6d4d2426-79e6-42df-bdcf-3abb16e803d9___Rut._Bact.S 3475.JPG,16,Peach___Bacterial_spot,30,Tomato___Late_blight,0.80695075,0.0031437334,False
+train\Tomato___Septoria_leaf_spot\3ed40b55-9410-41c7-91cd-1e2f771d5888___Matt.S_CG 7723.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.80399376,0.19549386,False
+train\Tomato___Early_blight\6c124f22-619b-44fc-a3d1-231286d4bfda___RS_Erly.B 6403.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.7939603,0.18457375,False
+train\Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\ad47f4e8-308f-4c56-b50b-19e4f7fedd6d___RS_GLSp 4583.JPG,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,0.7875063,0.21195443,False
+train\Tomato___Septoria_leaf_spot\2e656e51-9eab-4873-9a8e-f27811215256___Matt.S_CG 2509.JPG,32,Tomato___Septoria_leaf_spot,18,"Pepper,_bell___Bacterial_spot",0.78655475,0.21087301,False
+val\Tomato___Early_blight\1c29bc72-967e-46df-844b-467c95b298a3___RS_Erly.B 9549.JPG,29,Tomato___Early_blight,28,Tomato___Bacterial_spot,0.78459734,0.21533649,False
+"train\Pepper,_bell___healthy\42f083e2-272d-4f83-ad9a-573ee90e50ec___Screen Shot 2015-05-06 at 4.01.13 PM.png",19,"Pepper,_bell___healthy",29,Tomato___Early_blight,0.7783398,0.00023681097,False
+val\Tomato___Tomato_Yellow_Leaf_Curl_Virus\26308383-47d1-4bff-b79a-adebe7aeddc3___UF.GRC_YLCV_Lab 08535.JPG,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,28,Tomato___Bacterial_spot,0.77500474,0.22465995,False
+train\Tomato___Target_Spot\c47c2e46-e1ec-4359-ae0b-5e8b89dbd32f___Com.G_TgS_FL 9795.JPG,34,Tomato___Target_Spot,37,Tomato___healthy,0.7716992,0.103221394,False
+train\Tomato___Early_blight\f7beb64a-f8be-46d8-b4ea-637fb71e7509___RS_Erly.B 7711.JPG,29,Tomato___Early_blight,34,Tomato___Target_Spot,0.7686085,0.22808948,False
+val\Peach___Bacterial_spot\c715c01f-aa82-4685-9fca-5d2d46c44228___Rut._Bact.S 0746.JPG,16,Peach___Bacterial_spot,3,Apple___healthy,0.7665652,0.09594689,False
+val\Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\a9e08234-c1be-4519-a3e3-dd8d9456fab0___RS_GLSp 7336.JPG,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,0.7621007,0.2333373,False
+train\Tomato___Septoria_leaf_spot\3acde329-875f-4fab-b09f-513714612d5c___Matt.S_CG 7476.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.7598967,0.24004793,False
+train\Tomato___Septoria_leaf_spot\d16a363b-66e1-4206-89f8-31b2b4fadd5b___Matt.S_CG 7491.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.7582846,0.23907132,False
+train\Tomato___Septoria_leaf_spot\a90aa234-3af2-4fe7-b8eb-415427e16700___Matt.S_CG 2484.JPG,32,Tomato___Septoria_leaf_spot,18,"Pepper,_bell___Bacterial_spot",0.7578434,0.1807081,False
+val\Tomato___Septoria_leaf_spot\3b0062a2-2013-4dc6-9d61-4c74ae4b295a___JR_Sept.L.S 2484.JPG,32,Tomato___Septoria_leaf_spot,18,"Pepper,_bell___Bacterial_spot",0.7484628,0.24972624,False
+train\Tomato___Early_blight\b8421c32-9111-49c0-8e78-f86a9912ece4___RS_Erly.B 7706.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.7466721,0.23587036,False
+train\Tomato___Target_Spot\502048b3-912d-4930-9dba-e2b6de5399ee___Com.G_TgS_FL 7868.JPG,34,Tomato___Target_Spot,32,Tomato___Septoria_leaf_spot,0.7396058,0.030245274,False
+val\Apple___Black_rot\3bf50ea4-980e-471b-bbd1-fc0c526dbb7a___JR_FrgE.S 2905.JPG,1,Apple___Black_rot,30,Tomato___Late_blight,0.73345697,0.042236157,False
+val\Apple___Black_rot\f1844803-f6fb-4cfb-851e-b9095fb40c9e___JR_FrgE.S 2898.JPG,1,Apple___Black_rot,30,Tomato___Late_blight,0.71861786,0.25429916,False
+train\Potato___Late_blight\f3ee2886-4ada-4287-94b6-c4c93005b887___RS_LB 4352.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.7180967,0.2790223,False
+train\Tomato___Septoria_leaf_spot\75766b07-f03c-4c54-bd34-05fecb240dbf___Matt.S_CG 7466.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.7179119,0.068409845,False
+train\Tomato___Target_Spot\b9e0a7ff-7055-4184-a8bd-ff4321dc8dee___Com.G_TgS_FL 7866.JPG,34,Tomato___Target_Spot,32,Tomato___Septoria_leaf_spot,0.7142037,0.0688083,False
+val\Corn_(maize)___Northern_Leaf_Blight\e8527ec9-d83a-49c6-b0ed-1833e6350e23___RS_NLB 3796.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.7064255,0.28991646,False
+train\Apple___healthy\fcc4c8a4-2177-4a08-a785-063497dfd121___RS_HL 5844.JPG,3,Apple___healthy,1,Apple___Black_rot,0.6868549,0.25968432,False
+train\Tomato___Early_blight\bec8a4aa-dd9c-44db-815a-c760d49a8868___RS_Erly.B 7680.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.6823588,0.31732634,False
+train\Tomato___Spider_mites Two-spotted_spider_mite\cb50c515-6885-4fc5-903e-b9fbac229a37___Com.G_SpM_FL 1667.JPG,33,Tomato___Spider_mites Two-spotted_spider_mite,34,Tomato___Target_Spot,0.6756357,0.31297484,False
+val\Corn_(maize)___Northern_Leaf_Blight\0527ab7c-4ebe-4fd5-8254-ceea1b147005___RS_NLB 3925.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.67220896,0.3187718,False
+train\Tomato___Early_blight\73cf82cf-a099-4243-a7a6-b06c79eedb65___RS_Erly.B 7412.JPG,29,Tomato___Early_blight,34,Tomato___Target_Spot,0.6714445,0.3259601,False
+train\Tomato___Early_blight\e31c2f10-8b8d-4aec-9bc7-764d2995ebec___RS_Erly.B 7398.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.6703997,0.3292893,False
+train\Corn_(maize)___Common_rust_\RS_Rust 2205.JPG,8,Corn_(maize)___Common_rust_,9,Corn_(maize)___Northern_Leaf_Blight,0.6690237,0.32351875,False
+train\Corn_(maize)___Northern_Leaf_Blight\ecaf0f9a-338f-4065-bc84-7185d8394552___RS_NLB 3898.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.66894996,0.3285772,False
+val\Apple___Black_rot\e7cca27e-405c-4b21-9e61-f0c3ca6ee1c4___JR_FrgE.S 2977.JPG,1,Apple___Black_rot,3,Apple___healthy,0.63607645,0.1267273,False
+train\Tomato___Spider_mites Two-spotted_spider_mite\3046afbf-4a9a-41fb-a64f-3f9e75af08e7___Com.G_SpM_FL 1623.JPG,33,Tomato___Spider_mites Two-spotted_spider_mite,34,Tomato___Target_Spot,0.6360654,0.35402375,False
+train\Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot\bc690bb9-1611-4744-844d-0ab174467f54___RS_GLSp 4582.JPG,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,9,Corn_(maize)___Northern_Leaf_Blight,0.6276774,0.37188655,False
+train\Tomato___Early_blight\3d9a4538-4797-45fe-8cff-104237e19368___RS_Erly.B 7729.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.6012708,0.24567902,False
+train\Strawberry___Leaf_scorch\5297eecc-3b42-42e6-87af-d01be13b3052___RS_L.Scorch 9910.JPG,26,Strawberry___Leaf_scorch,29,Tomato___Early_blight,0.5962039,0.112516776,False
+train\Tomato___Target_Spot\feb1b0d0-aa78-4ba8-93a1-384229fc92fd___Com.G_TgS_FL 0715.JPG,34,Tomato___Target_Spot,37,Tomato___healthy,0.5950627,0.37165412,False
+train\Tomato___Tomato_mosaic_virus\847307bc-58ab-45fc-8001-f1e07a38bc82___PSU_CG 2065.JPG,36,Tomato___Tomato_mosaic_virus,33,Tomato___Spider_mites Two-spotted_spider_mite,0.5852166,0.41336283,False
+val\Tomato___Target_Spot\a8c2dd2d-45fc-4ab3-8726-95df9a7790a0___Com.G_TgS_FL 0662.JPG,34,Tomato___Target_Spot,37,Tomato___healthy,0.5851801,0.37341893,False
+val\Apple___healthy\c89af5ca-be92-4d72-af08-56598771c4c3___RS_HL 5695.JPG,3,Apple___healthy,6,Cherry_(including_sour)___healthy,0.5792453,0.003808792,False
+train\Cherry_(including_sour)___Powdery_mildew\e3d5a32d-3567-44f4-8ea2-79b413214a6d___FREC_Pwd.M 5144.JPG,5,Cherry_(including_sour)___Powdery_mildew,30,Tomato___Late_blight,0.56398964,0.30828723,False
+val\Tomato___Septoria_leaf_spot\52b3119d-4f5e-41b0-948f-7a1d3b1341eb___JR_Sept.L.S 8495.JPG,32,Tomato___Septoria_leaf_spot,24,Soybean___healthy,0.56364053,0.28731772,False
+train\Tomato___Target_Spot\0ff11bec-6751-47dc-86a0-cf28682f13d3___Com.G_TgS_FL 7907.JPG,34,Tomato___Target_Spot,0,Apple___Apple_scab,0.5407693,0.021718163,False
+val\Apple___Black_rot\01e94c43-0879-4e8c-9b61-c48cfed88dab___JR_FrgE.S 3024.JPG,1,Apple___Black_rot,27,Strawberry___healthy,0.5354181,0.35666537,False
+train\Tomato___Tomato_Yellow_Leaf_Curl_Virus\f3182576-f0d3-4412-a4e1-45e143e360a0___UF.GRC_YLCV_Lab 02462.JPG,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,28,Tomato___Bacterial_spot,0.53093046,0.46854448,False
+train\Corn_(maize)___Northern_Leaf_Blight\5f0d808c-526d-44be-b7f5-f87cbb333168___RS_NLB 3943.JPG,9,Corn_(maize)___Northern_Leaf_Blight,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5290276,0.47052684,False
+"val\Pepper,_bell___Bacterial_spot\f3cdfb4a-f1d9-4f95-a036-5a9fb585e570___JR_B.Spot 3110.JPG",18,"Pepper,_bell___Bacterial_spot",15,Orange___Haunglongbing_(Citrus_greening),0.5275692,0.46557817,False
+train\Tomato___Tomato_mosaic_virus\c7f8e876-66c2-4014-82a4-47d4556bfb7d___PSU_CG 2418.JPG,36,Tomato___Tomato_mosaic_virus,34,Tomato___Target_Spot,0.49695763,0.27822402,False
+train\Peach___healthy\789d2e40-b2fc-45d0-81e6-b210f09ac71e___Rutg._HL 2463.JPG,17,Peach___healthy,3,Apple___healthy,0.49504483,0.28096837,False
+train\Tomato___Tomato_mosaic_virus\afd8bd61-a7fe-4ee1-8cf8-afa0c116d751___PSU_CG 2391.JPG,36,Tomato___Tomato_mosaic_virus,32,Tomato___Septoria_leaf_spot,0.49385238,0.46940005,False
+train\Tomato___Early_blight\7b32caa4-0d67-4b84-a1bf-cf9dffd7ffe5___RS_Erly.B 6405.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.47556046,0.47370645,False
+val\Tomato___Tomato_mosaic_virus\bdcbce9a-e672-47e2-97d0-1b4e7e57f188___PSU_CG 2403.JPG,36,Tomato___Tomato_mosaic_virus,31,Tomato___Leaf_Mold,0.46973068,0.37891644,False
+val\Tomato___Target_Spot\907d3187-4443-47c6-a006-5683efdc3f95___Com.G_TgS_FL 0705.JPG,34,Tomato___Target_Spot,32,Tomato___Septoria_leaf_spot,0.40308356,0.2502803,False
+train\Apple___healthy\99b369d2-fa9b-4d3b-8516-462dbae8561a___RS_HL 7242.JPG,3,Apple___healthy,15,Orange___Haunglongbing_(Citrus_greening),0.34831634,0.16582343,False
+val\Tomato___Target_Spot\0fe6221c-5848-4000-afc6-5a10422dd300___Com.G_TgS_FL 9772.JPG,34,Tomato___Target_Spot,19,"Pepper,_bell___healthy",0.34275138,0.24856797,False

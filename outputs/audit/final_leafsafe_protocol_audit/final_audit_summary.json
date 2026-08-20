@@ -1,0 +1,37 @@
+{
+  "protocol": "conservative_official_leaf_preserving_test",
+  "manifest_images": 54300,
+  "split_counts": {
+    "train": 39125,
+    "test": 10709,
+    "validation": 4466
+  },
+  "mapped_leaf_metadata_images": 41111,
+  "unmapped_leaf_metadata_images": 13189,
+  "mapped_leaf_metadata_coverage": 0.757108655616943,
+  "exact_cross_split_pairs": 0,
+  "mapped_leaf_cross_split_groups": 0,
+  "strict_dhash_threshold": 4,
+  "review_dhash_threshold": 8,
+  "strict_dhash_cross_split_pairs": 39,
+  "strict_dhash_pairs_involving_unmapped_leaf": 20,
+  "review_dhash_cross_split_pairs": 2502,
+  "embedding_audit_skipped": false,
+  "embedding_device": "cuda",
+  "embedding_max_cosine_similarity": 0.983994722366333,
+  "embedding_very_high_threshold": 0.9995,
+  "embedding_high_threshold": 0.995,
+  "embedding_very_high_pairs_in_top_saved": 0,
+  "embedding_high_pairs_in_top_saved": 0,
+  "embedding_unmapped_very_high_pairs_in_top_saved": 0,
+  "hard_checks": {
+    "exact_duplicate_pass": true,
+    "mapped_leaf_overlap_pass": true,
+    "strict_perceptual_near_duplicate_pass": false
+  },
+  "hard_audit_pass": false,
+  "notes": {
+    "embedding": "Embedding similarity is heuristic and must be visually reviewed; it is not proof of physical-leaf identity.",
+    "leaf_metadata": "Leaf-map coverage is incomplete. The official PlantVillage test split is documented as leaf-preserving; this audit independently checks mapped leaf IDs and also screens unmapped samples via exact, perceptual, and feature similarity."
+  }
+}

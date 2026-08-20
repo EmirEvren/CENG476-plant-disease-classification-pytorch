@@ -1,0 +1,16 @@
+{
+  "purpose": "Pipeline/label-leak sanity control; training labels were shuffled.",
+  "classes": 38,
+  "chance_accuracy": 0.02631578947368421,
+  "train_images": 760,
+  "validation_images": 380,
+  "random_labels_unchanged_by_chance": 17,
+  "epochs": 5,
+  "backbone_frozen": true,
+  "validation_uses_true_labels": true,
+  "final_validation_accuracy": 0.018421052631578946,
+  "final_validation_macro_f1": 0.018320373583531478,
+  "pass_threshold": 0.1,
+  "pass": true,
+  "note": "This is a sanity check, not a formal statistical proof of zero leakage."
+}

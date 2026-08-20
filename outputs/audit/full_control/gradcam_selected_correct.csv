@@ -1,0 +1,13 @@
+relative_path,true_index,true_class,predicted_index,predicted_class,confidence,true_class_probability,correct
+train\Apple___Apple_scab\0261a6e4-21f8-481a-8827-b674e6955644___FREC_Scab 3055.JPG,0,Apple___Apple_scab,0,Apple___Apple_scab,1.0,1.0,True
+train\Apple___Apple_scab\09ba6ad9-aa8d-4493-b1bf-818a4b30c4aa___FREC_Scab 2981.JPG,0,Apple___Apple_scab,0,Apple___Apple_scab,1.0,1.0,True
+train\Apple___Apple_scab\0db71c1d-93d7-4481-b0d0-b73f995131a9___FREC_Scab 2976.JPG,0,Apple___Apple_scab,0,Apple___Apple_scab,1.0,1.0,True
+train\Apple___Apple_scab\1cb869ea-0a4c-47d7-9def-a88c16b72ddc___FREC_Scab 3350.JPG,0,Apple___Apple_scab,0,Apple___Apple_scab,1.0,1.0,True
+val\Tomato___Tomato_Yellow_Leaf_Curl_Virus\f5762b9d-f349-4adb-afb2-b6abb81b466c___YLCV_NREC 2985.JPG,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\c5a4696f-ca91-4d1d-b243-11bd8733a723___FAM_B.Msls 1334.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\c842ee54-3460-4998-816e-72c1def7fd8b___FAM_B.Msls 1145.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\d7cc174f-080d-4587-943d-700429fb6dff___FAM_B.Msls 4225.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\d91774fe-94c4-4f98-a4ad-106794907f27___FAM_B.Msls 4393.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\decd47b1-34d6-40f8-94d3-2fcaba5ea7d2___FAM_B.Msls 4388.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\f5af65e7-d2ad-4e62-899c-bbec7a6b5a79___FAM_B.Msls 1146.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True
+train\Grape___Esca_(Black_Measles)\7ea4cc7f-58c1-4183-b039-c601dde02ded___FAM_B.Msls 1011.JPG,12,Grape___Esca_(Black_Measles),12,Grape___Esca_(Black_Measles),1.0,1.0,True

@@ -1,0 +1,62 @@
+{
+  "protocol": "ultra_strict_dhash_quarantined_official_test",
+  "train_images": 39091,
+  "validation_images": 4462,
+  "locked_test_images": 10709,
+  "test_set_modified": false,
+  "test_used_for_training": false,
+  "test_used_for_checkpoint_selection": false,
+  "test_used_for_ensemble_weight_selection": false,
+  "test_images_used_for_integrity_audit_only": true,
+  "strict_dhash_pairs_after_quarantine": 0,
+  "efficientnet_checkpoint_epoch": 5,
+  "resnet_checkpoint_epoch": 10,
+  "metrics": [
+    {
+      "model": "EfficientNet-B0",
+      "accuracy": 0.9901017835465497,
+      "macro_precision": 0.9896664534546566,
+      "macro_recall": 0.9854990581640964,
+      "macro_f1": 0.9873730688086694,
+      "weighted_f1": 0.9901140982962432,
+      "errors": 106,
+      "ece_15_bins": 0.0038453387589623186,
+      "nll": 0.03570402041077614,
+      "multiclass_brier": 0.016144560649991035
+    },
+    {
+      "model": "50/50 Ensemble",
+      "accuracy": 0.9914090951536091,
+      "macro_precision": 0.99076381373039,
+      "macro_recall": 0.989098675102101,
+      "macro_f1": 0.989732611691459,
+      "weighted_f1": 0.9913961674095462,
+      "errors": 92,
+      "ece_15_bins": 0.00912107032591454,
+      "nll": 0.03541933372616768,
+      "multiclass_brier": 0.017434751614928246
+    }
+  ],
+  "bootstrap_95ci": [
+    {
+      "model": "EfficientNet-B0",
+      "accuracy_mean": 0.9900293211317582,
+      "accuracy_ci_low": 0.9881408161359604,
+      "accuracy_ci_high": 0.9919693715566346,
+      "macro_f1_mean": 0.9872582605329492,
+      "macro_f1_ci_low": 0.9846847347817052,
+      "macro_f1_ci_high": 0.9899995394784753,
+      "bootstrap_samples": 1000
+    },
+    {
+      "model": "50/50 Ensemble",
+      "accuracy_mean": 0.9913866840974881,
+      "accuracy_ci_low": 0.9895415071435242,
+      "accuracy_ci_high": 0.9930899243626856,
+      "macro_f1_mean": 0.9896630117976983,
+      "macro_f1_ci_low": 0.987259017635636,
+      "macro_f1_ci_high": 0.9917897289604232,
+      "bootstrap_samples": 1000
+    }
+  ]
+}

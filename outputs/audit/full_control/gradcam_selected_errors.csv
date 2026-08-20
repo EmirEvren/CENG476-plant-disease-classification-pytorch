@@ -1,0 +1,13 @@
+relative_path,true_index,true_class,predicted_index,predicted_class,confidence,true_class_probability,correct
+val\Corn_(maize)___Common_rust_\RS_Rust 1949.JPG,8,Corn_(maize)___Common_rust_,9,Corn_(maize)___Northern_Leaf_Blight,0.9998703,5.265801e-05,False
+train\Tomato___Early_blight\5ac54e63-40a4-4651-a900-fd3ab4d32bae___RS_Erly.B 7727.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.999739,0.0001353715,False
+train\Tomato___Septoria_leaf_spot\8aad671a-ce18-4cdb-9744-63eb859d40b7___Matt.S_CG 7650.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9991561,0.0005145935,False
+val\Potato___Late_blight\93d91b96-e024-477c-9b76-796e3f1614d4___RS_LB 3297.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.99896145,0.00047677328,False
+train\Tomato___Septoria_leaf_spot\b36baca9-7ebc-4abc-b0fd-a05871925c6e___Matt.S_CG 7725.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9983365,0.0015791261,False
+train\Tomato___Early_blight\c5ab9d87-f1bf-4fce-8133-c80ac2d52dd5___RS_Erly.B 7849.JPG,29,Tomato___Early_blight,32,Tomato___Septoria_leaf_spot,0.99737537,0.00083540904,False
+train\Tomato___Septoria_leaf_spot\ba5de483-365d-4a7c-8340-bf3ca0923a5e___Keller.St_CG 1861.JPG,32,Tomato___Septoria_leaf_spot,30,Tomato___Late_blight,0.9970697,0.0018492527,False
+train\Potato___Late_blight\93935af4-3aae-4dd6-90d9-fb28e439faf0___RS_LB 3299.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.9964881,0.0003291019,False
+train\Corn_(maize)___Northern_Leaf_Blight\ba2884c9-c118-441a-8095-9a287f8a865d___RS_NLB 3954 copy.jpg,9,Corn_(maize)___Northern_Leaf_Blight,30,Tomato___Late_blight,0.9938181,0.004711431,False
+train\Tomato___Early_blight\b24f8f98-4bfe-4605-85f5-738fc09e58fe___RS_Erly.B 6406.JPG,29,Tomato___Early_blight,30,Tomato___Late_blight,0.99297065,0.0050750375,False
+train\Potato___Late_blight\2565077d-44d3-4213-82c2-bf5ae9a64368___RS_LB 3295.JPG,21,Potato___Late_blight,30,Tomato___Late_blight,0.99271166,0.007148099,False
+val\Tomato___Target_Spot\9a2e5ed6-a441-4d2b-8d50-fd44c1fde6dc___Com.G_TgS_FL 1110.JPG,34,Tomato___Target_Spot,33,Tomato___Spider_mites Two-spotted_spider_mite,0.9916047,0.008250403,False

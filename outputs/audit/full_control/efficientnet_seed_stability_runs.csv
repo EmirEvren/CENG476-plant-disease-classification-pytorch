@@ -1,0 +1,4 @@
+run_name,seed,checkpoint_epoch,validation_macro_f1,test_accuracy,test_macro_f1,test_errors,test_examples
+efficientnet_b0_official_ultrastrict_full,42,5,0.9824313452241429,0.9901017835465497,0.9873730688086694,106,10709
+efficientnet_b0_official_ultrastrict_seed123,123,12,0.9867043007379867,0.9876739191334392,0.9836683959404184,132,10709
+efficientnet_b0_official_ultrastrict_seed777,777,12,0.9920556516807505,0.9922495097581474,0.990149065375476,83,10709

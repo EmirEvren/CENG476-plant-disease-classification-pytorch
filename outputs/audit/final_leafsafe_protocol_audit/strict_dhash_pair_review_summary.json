@@ -1,0 +1,22 @@
+{
+  "strict_pairs": 39,
+  "strict_pair_split_distribution": {
+    "test--train": 27,
+    "train--validation": 8,
+    "test--validation": 4
+  },
+  "pairs_involving_unmapped_leaf": 20,
+  "fully_mapped_pairs": 19,
+  "fully_mapped_pairs_same_leaf_id": 0,
+  "max_embedding_cosine_all_strict": 0.9839990139007568,
+  "max_embedding_cosine_unmapped": 0.9839990139007568,
+  "max_gray_pixel_correlation_unmapped": 0.937154563646097,
+  "min_rgb_mae_unmapped": 0.04020942747592926,
+  "embedding_review_threshold": 0.99,
+  "pixel_correlation_review_threshold": 0.995,
+  "rgb_mae_review_threshold": 0.03,
+  "unmapped_embedding_review_flags": 0,
+  "unmapped_pixel_review_flags": 0,
+  "device": "cuda",
+  "interpretation": "dHash is a coarse perceptual screen. Fully mapped pairs with different leaf IDs are not same-leaf leakage according to available metadata. Pairs involving unmapped leaf metadata require visual review; embedding and pixel metrics are supporting heuristics, not proof of identity."
+}
