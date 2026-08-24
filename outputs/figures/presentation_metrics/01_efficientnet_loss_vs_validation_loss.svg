@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="34" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">EfficientNet-B0 — Training Loss vs Validation Loss</text>
+<line x1="75" y1="460" x2="970" y2="460" stroke="#333"/>
+<line x1="75" y1="70" x2="75" y2="460" stroke="#333"/>
+<line x1="75" y1="460.0" x2="970" y2="460.0" stroke="#ddd"/>
+<text x="65" y="464.0" text-anchor="end" font-family="Arial" font-size="13">-0.018</text>
+<line x1="75" y1="382.0" x2="970" y2="382.0" stroke="#ddd"/>
+<text x="65" y="386.0" text-anchor="end" font-family="Arial" font-size="13">0.047</text>
+<line x1="75" y1="304.0" x2="970" y2="304.0" stroke="#ddd"/>
+<text x="65" y="308.0" text-anchor="end" font-family="Arial" font-size="13">0.113</text>
+<line x1="75" y1="226.0" x2="970" y2="226.0" stroke="#ddd"/>
+<text x="65" y="230.0" text-anchor="end" font-family="Arial" font-size="13">0.178</text>
+<line x1="75" y1="148.0" x2="970" y2="148.0" stroke="#ddd"/>
+<text x="65" y="152.0" text-anchor="end" font-family="Arial" font-size="13">0.243</text>
+<line x1="75" y1="70.0" x2="970" y2="70.0" stroke="#ddd"/>
+<text x="65" y="74.0" text-anchor="end" font-family="Arial" font-size="13">0.309</text>
+<text x="75.0" y="484" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+<text x="156.4" y="484" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+<text x="237.7" y="484" text-anchor="middle" font-family="Arial" font-size="12">3</text>
+<text x="319.1" y="484" text-anchor="middle" font-family="Arial" font-size="12">4</text>
+<text x="400.5" y="484" text-anchor="middle" font-family="Arial" font-size="12">5</text>
+<text x="481.8" y="484" text-anchor="middle" font-family="Arial" font-size="12">6</text>
+<text x="563.2" y="484" text-anchor="middle" font-family="Arial" font-size="12">7</text>
+<text x="644.5" y="484" text-anchor="middle" font-family="Arial" font-size="12">8</text>
+<text x="725.9" y="484" text-anchor="middle" font-family="Arial" font-size="12">9</text>
+<text x="807.3" y="484" text-anchor="middle" font-family="Arial" font-size="12">10</text>
+<text x="888.6" y="484" text-anchor="middle" font-family="Arial" font-size="12">11</text>
+<text x="970.0" y="484" text-anchor="middle" font-family="Arial" font-size="12">12</text>
+<text x="522.5" y="508" text-anchor="middle" font-family="Arial" font-size="15">Epoch</text>
+<text x="18" y="265.0" transform="rotate(-90 18 265.0)" text-anchor="middle" font-family="Arial" font-size="15">Cross-Entropy Loss</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="75.0,96.9 156.4,389.4 237.7,404.5 319.1,413.6 400.5,414.1 481.8,419.7 563.2,421.3 644.5,424.3 725.9,425.3 807.3,429.6 888.6,433.1 970.0,432.3"/>
+<circle cx="75.0" cy="96.9" r="3.5" fill="#1f77b4"/>
+<circle cx="156.4" cy="389.4" r="3.5" fill="#1f77b4"/>
+<circle cx="237.7" cy="404.5" r="3.5" fill="#1f77b4"/>
+<circle cx="319.1" cy="413.6" r="3.5" fill="#1f77b4"/>
+<circle cx="400.5" cy="414.1" r="3.5" fill="#1f77b4"/>
+<circle cx="481.8" cy="419.7" r="3.5" fill="#1f77b4"/>
+<circle cx="563.2" cy="421.3" r="3.5" fill="#1f77b4"/>
+<circle cx="644.5" cy="424.3" r="3.5" fill="#1f77b4"/>
+<circle cx="725.9" cy="425.3" r="3.5" fill="#1f77b4"/>
+<circle cx="807.3" cy="429.6" r="3.5" fill="#1f77b4"/>
+<circle cx="888.6" cy="433.1" r="3.5" fill="#1f77b4"/>
+<circle cx="970.0" cy="432.3" r="3.5" fill="#1f77b4"/>
+<line x1="740" y1="90" x2="768" y2="90" stroke="#1f77b4" stroke-width="3"/>
+<text x="776" y="95" font-family="Arial" font-size="14">Train Loss</text>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="75.0,325.1 156.4,339.9 237.7,384.2 319.1,382.2 400.5,398.6 481.8,410.0 563.2,384.0 644.5,394.0 725.9,395.9 807.3,419.4 888.6,418.1 970.0,413.7"/>
+<circle cx="75.0" cy="325.1" r="3.5" fill="#ff7f0e"/>
+<circle cx="156.4" cy="339.9" r="3.5" fill="#ff7f0e"/>
+<circle cx="237.7" cy="384.2" r="3.5" fill="#ff7f0e"/>
+<circle cx="319.1" cy="382.2" r="3.5" fill="#ff7f0e"/>
+<circle cx="400.5" cy="398.6" r="3.5" fill="#ff7f0e"/>
+<circle cx="481.8" cy="410.0" r="3.5" fill="#ff7f0e"/>
+<circle cx="563.2" cy="384.0" r="3.5" fill="#ff7f0e"/>
+<circle cx="644.5" cy="394.0" r="3.5" fill="#ff7f0e"/>
+<circle cx="725.9" cy="395.9" r="3.5" fill="#ff7f0e"/>
+<circle cx="807.3" cy="419.4" r="3.5" fill="#ff7f0e"/>
+<circle cx="888.6" cy="418.1" r="3.5" fill="#ff7f0e"/>
+<circle cx="970.0" cy="413.7" r="3.5" fill="#ff7f0e"/>
+<line x1="740" y1="114" x2="768" y2="114" stroke="#ff7f0e" stroke-width="3"/>
+<text x="776" y="119" font-family="Arial" font-size="14">Validation Loss</text>
+</svg>
