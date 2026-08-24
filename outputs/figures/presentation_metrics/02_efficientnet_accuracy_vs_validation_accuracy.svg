@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="500.0" y="34" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">EfficientNet-B0 — Training Accuracy vs Validation Accuracy</text>
+<line x1="75" y1="460" x2="970" y2="460" stroke="#333"/>
+<line x1="75" y1="70" x2="75" y2="460" stroke="#333"/>
+<line x1="75" y1="460.0" x2="970" y2="460.0" stroke="#ddd"/>
+<text x="65" y="464.0" text-anchor="end" font-family="Arial" font-size="13">92.000</text>
+<line x1="75" y1="382.0" x2="970" y2="382.0" stroke="#ddd"/>
+<text x="65" y="386.0" text-anchor="end" font-family="Arial" font-size="13">93.640</text>
+<line x1="75" y1="304.0" x2="970" y2="304.0" stroke="#ddd"/>
+<text x="65" y="308.0" text-anchor="end" font-family="Arial" font-size="13">95.280</text>
+<line x1="75" y1="226.0" x2="970" y2="226.0" stroke="#ddd"/>
+<text x="65" y="230.0" text-anchor="end" font-family="Arial" font-size="13">96.920</text>
+<line x1="75" y1="148.0" x2="970" y2="148.0" stroke="#ddd"/>
+<text x="65" y="152.0" text-anchor="end" font-family="Arial" font-size="13">98.560</text>
+<line x1="75" y1="70.0" x2="970" y2="70.0" stroke="#ddd"/>
+<text x="65" y="74.0" text-anchor="end" font-family="Arial" font-size="13">100.200</text>
+<text x="75.0" y="484" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+<text x="156.4" y="484" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+<text x="237.7" y="484" text-anchor="middle" font-family="Arial" font-size="12">3</text>
+<text x="319.1" y="484" text-anchor="middle" font-family="Arial" font-size="12">4</text>
+<text x="400.5" y="484" text-anchor="middle" font-family="Arial" font-size="12">5</text>
+<text x="481.8" y="484" text-anchor="middle" font-family="Arial" font-size="12">6</text>
+<text x="563.2" y="484" text-anchor="middle" font-family="Arial" font-size="12">7</text>
+<text x="644.5" y="484" text-anchor="middle" font-family="Arial" font-size="12">8</text>
+<text x="725.9" y="484" text-anchor="middle" font-family="Arial" font-size="12">9</text>
+<text x="807.3" y="484" text-anchor="middle" font-family="Arial" font-size="12">10</text>
+<text x="888.6" y="484" text-anchor="middle" font-family="Arial" font-size="12">11</text>
+<text x="970.0" y="484" text-anchor="middle" font-family="Arial" font-size="12">12</text>
+<text x="522.5" y="508" text-anchor="middle" font-family="Arial" font-size="15">Epoch</text>
+<text x="18" y="265.0" transform="rotate(-90 18 265.0)" text-anchor="middle" font-family="Arial" font-size="15">Accuracy (%)</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="75.0,423.0 156.4,140.9 237.7,122.5 319.1,113.6 400.5,109.0 481.8,104.6 563.2,102.0 644.5,98.0 725.9,96.3 807.3,91.9 888.6,86.2 970.0,87.3"/>
+<circle cx="75.0" cy="423.0" r="3.5" fill="#1f77b4"/>
+<circle cx="156.4" cy="140.9" r="3.5" fill="#1f77b4"/>
+<circle cx="237.7" cy="122.5" r="3.5" fill="#1f77b4"/>
+<circle cx="319.1" cy="113.6" r="3.5" fill="#1f77b4"/>
+<circle cx="400.5" cy="109.0" r="3.5" fill="#1f77b4"/>
+<circle cx="481.8" cy="104.6" r="3.5" fill="#1f77b4"/>
+<circle cx="563.2" cy="102.0" r="3.5" fill="#1f77b4"/>
+<circle cx="644.5" cy="98.0" r="3.5" fill="#1f77b4"/>
+<circle cx="725.9" cy="96.3" r="3.5" fill="#1f77b4"/>
+<circle cx="807.3" cy="91.9" r="3.5" fill="#1f77b4"/>
+<circle cx="888.6" cy="86.2" r="3.5" fill="#1f77b4"/>
+<circle cx="970.0" cy="87.3" r="3.5" fill="#1f77b4"/>
+<line x1="740" y1="90" x2="768" y2="90" stroke="#1f77b4" stroke-width="3"/>
+<text x="776" y="95" font-family="Arial" font-size="14">Train Accuracy</text>
+<polyline fill="none" stroke="#ff7f0e" stroke-width="3" points="75.0,227.5 156.4,207.4 237.7,150.5 319.1,146.1 400.5,136.4 481.8,114.5 563.2,143.5 644.5,134.7 725.9,131.2 807.3,103.2 888.6,108.4 970.0,109.3"/>
+<circle cx="75.0" cy="227.5" r="3.5" fill="#ff7f0e"/>
+<circle cx="156.4" cy="207.4" r="3.5" fill="#ff7f0e"/>
+<circle cx="237.7" cy="150.5" r="3.5" fill="#ff7f0e"/>
+<circle cx="319.1" cy="146.1" r="3.5" fill="#ff7f0e"/>
+<circle cx="400.5" cy="136.4" r="3.5" fill="#ff7f0e"/>
+<circle cx="481.8" cy="114.5" r="3.5" fill="#ff7f0e"/>
+<circle cx="563.2" cy="143.5" r="3.5" fill="#ff7f0e"/>
+<circle cx="644.5" cy="134.7" r="3.5" fill="#ff7f0e"/>
+<circle cx="725.9" cy="131.2" r="3.5" fill="#ff7f0e"/>
+<circle cx="807.3" cy="103.2" r="3.5" fill="#ff7f0e"/>
+<circle cx="888.6" cy="108.4" r="3.5" fill="#ff7f0e"/>
+<circle cx="970.0" cy="109.3" r="3.5" fill="#ff7f0e"/>
+<line x1="740" y1="114" x2="768" y2="114" stroke="#ff7f0e" stroke-width="3"/>
+<text x="776" y="119" font-family="Arial" font-size="14">Validation Accuracy</text>
+</svg>
